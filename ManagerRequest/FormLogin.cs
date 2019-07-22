@@ -37,7 +37,7 @@ namespace ManagerRequest
                     this.Hide();
                     var form = new Form1();
                     form.Show();
-                }
+                }else
                 MessageBox.Show("usuario o contraseña incorrecta");
             }
 
